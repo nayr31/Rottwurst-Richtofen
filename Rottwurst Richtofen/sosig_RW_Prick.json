@@ -1,0 +1,173 @@
+{
+  "DisplayName": "Prick",
+  "SosigEnemyCategory": "RotwienerRots",
+  "SosigEnemyID": "RW_Prick",
+  "SosigPrefabs": [
+    "ZosigBody_Prick"
+  ],
+  "Configs": [
+    {
+      "ViewDistance": 60.0,
+      "HearingDistance": 300.0,
+      "MaxFOV": 105.0,
+      "SearchExtentsModifier": 1.0,
+      "DoesAggroOnFriendlyFire": false,
+      "HasABrain": true,
+      "DoesDropWeaponsOnBallistic": false,
+      "CanPickupRanged": true,
+      "CanPickupMelee": false,
+      "CanPickupOther": false,
+      "TargetCapacity": 3,
+      "TargetTrackingTime": 2.0,
+      "NoFreshTargetTime": 1.5,
+      "AssaultPointOverridesSkirmishPointWhenFurtherThan": 200.0,
+      "RunSpeed": 3.5,
+      "WalkSpeed": 1.4,
+      "SneakSpeed": 1.0,
+      "CrawlSpeed": 0.8,
+      "TurnSpeed": 1.5,
+      "MaxJointLimit": 6.0,
+      "MovementRotMagnitude": 12.0,
+      "TotalMustard": 100.0,
+      "BleedDamageMult": 1.0,
+      "BleedRateMultiplier": 1.0,
+      "BleedVFXIntensity": 1.0,
+      "DamMult_Projectile": 0.05,
+      "DamMult_Explosive": 0.3,
+      "DamMult_Melee": 0.3,
+      "DamMult_Piercing": 1.0,
+      "DamMult_Blunt": 1.0,
+      "DamMult_Cutting": 1.0,
+      "DamMult_Thermal": 3.0,
+      "DamMult_Chilling": 1.0,
+      "DamMult_EMP": 1.0,
+      "LinkDamageMultipliers": [
+        5.0,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "LinkStaggerMultipliers": [
+        2.5,
+        0.4,
+        0.8,
+        1.5
+      ],
+      "StartingLinkIntegrity": [
+        {
+          "x": 30.0,
+          "y": 30.0
+        },
+        {
+          "x": 30.0,
+          "y": 30.0
+        },
+        {
+          "x": 30.0,
+          "y": 30.0
+        },
+        {
+          "x": 30.0,
+          "y": 30.0
+        }
+      ],
+      "StartingChanceBrokenJoint": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ShudderThreshold": 2.0,
+      "ConfusionThreshold": 1.2,
+      "ConfusionMultiplier": 3.0,
+      "ConfusionTimeMax": 4.0,
+      "StunThreshold": 1.4,
+      "StunMultiplier": 1.4,
+      "StunTimeMax": 4.0,
+      "CanBeGrabbed": true,
+      "CanBeSevered": true,
+      "CanBeStabbed": true,
+      "CanBeSurpressed": false,
+      "SuppressionMult": 1.0,
+      "DoesJointBreakKill_Head": false,
+      "DoesJointBreakKill_Upper": false,
+      "DoesJointBreakKill_Lower": false,
+      "DoesSeverKill_Head": true,
+      "DoesSeverKill_Upper": true,
+      "DoesSeverKill_Lower": false,
+      "DoesExplodeKill_Head": true,
+      "DoesExplodeKill_Upper": true,
+      "DoesExplodeKill_Lower": false
+    }
+  ],
+  "ConfigsEasy": [],
+  "OutfitConfigs": [
+    {
+      "Headwear": [],
+      "Chance_Headwear": 0.0,
+      "ForceWearAllHead": false,
+      "Eyewear": [],
+      "Chance_Eyewear": 0.0,
+      "ForceWearAllEye": false,
+      "Facewear": [],
+      "Chance_Facewear": 0.0,
+      "ForceWearAllFace": false,
+      "Torsowear": [],
+      "Chance_Torsowear": 0.0,
+      "ForceWearAllTorso": false,
+      "Pantswear": [],
+      "Chance_Pantswear": 0.0,
+      "ForceWearAllPants": false,
+      "Pantswear_Lower": [],
+      "Chance_Pantswear_Lower": 0.0,
+      "ForceWearAllPantsLower": false,
+      "Backpacks": [],
+      "Chance_Backpacks": 0.0,
+      "ForceWearAllBackpacks": false
+    }
+  ],
+  "WeaponOptions": [
+    "Sosiggun_Prick"
+  ],
+  "WeaponOptionsSecondary": [
+    "Sosiggun_Prick"
+  ],
+  "WeaponOptionsTertiary": [],
+  "SecondaryChance": 1.0,
+  "TertiaryChance": 0.0,
+  "DroppedLootChance": 0.0,
+  "DroppedObjectPool": {
+    "Category": "Firearm",
+    "Rarity": 0.0,
+    "RequiredQuest": null,
+    "ItemsToSpawn": 0,
+    "MinAmmoCapacity": 0,
+    "MaxAmmoCapacity": 0,
+    "NumMagsSpawned": 0,
+    "NumClipsSpawned": 0,
+    "NumRoundsSpawned": 0,
+    "SpawnMagAndClip": false,
+    "BespokeAttachmentChance": 0.0,
+    "IsCompatibleMagazine": false,
+    "AutoPopulateGroup": false,
+    "ForceSpawnAllSubPools": false,
+    "IDOverride": [],
+    "Eras": [],
+    "Sets": [],
+    "Sizes": [],
+    "Actions": [],
+    "Modes": [],
+    "ExcludedModes": [],
+    "FeedOptions": [],
+    "MountsAvailable": [],
+    "RoundPowers": [],
+    "Features": [],
+    "MeleeStyles": [],
+    "MeleeHandedness": [],
+    "MountTypes": [],
+    "PowerupTypes": null,
+    "ThrownTypes": [],
+    "ThrownDamageTypes": [],
+    "SubGroups": []
+  }
+}

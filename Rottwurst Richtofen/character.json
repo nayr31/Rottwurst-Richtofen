@@ -1,6 +1,6 @@
 ﻿{
   "DisplayName": "Rottwurst Richtofen",
-  "Description": "Not even the pacification squad arrived.\n\nUses Special Progression\nNOTE: One Hit Mode VERY HARD",
+  "Description": "Special Loadout\nLots of Melee Enemies\n\nUses Special Progression\nNOTE: One Hit Mode VERY HARD",
   "CharacterGroup": 2,
   "TableID": "MM_C02",
   "StartingTokens": 3,
@@ -2199,7 +2199,7 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Rot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 3,
         "IFFUsed": 2
@@ -2214,9 +2214,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "MinEnemies": 3,
           "MaxEnemies": 3,
           "MaxEnemiesAlive": 6,
@@ -2240,9 +2240,9 @@
       "Patrols": [
         {
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "PatrolSize": 1,
           "MaxPatrols": 8,
           "MaxPatrolsLimited": 5,
@@ -2278,7 +2278,7 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Rot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 3,
         "IFFUsed": 2
@@ -2293,9 +2293,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Floater",
+          "LeaderType": "sosig_RW_Floater",
           "MinEnemies": 3,
           "MaxEnemies": 3,
           "MaxEnemiesAlive": 4,
@@ -2317,9 +2317,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_HamFister",
+          "LeaderType": "sosig_RW_HamFister",
           "MinEnemies": 4,
           "MaxEnemies": 4,
           "MaxEnemiesAlive": 6,
@@ -2335,7 +2335,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Rot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 3,
         "IFFUsed": 2
@@ -2343,9 +2343,9 @@
       "Patrols": [
         {
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2360,9 +2360,9 @@
         },
         {
           "EnemyType": [
-            "RW_Floater"
+            "sosig_RW_Floater"
           ],
-          "LeaderType": "RW_Floater",
+          "LeaderType": "sosig_RW_Floater",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2398,7 +2398,7 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Rot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 5,
         "IFFUsed": 2
@@ -2413,9 +2413,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Driller",
+          "LeaderType": "sosig_RW_Driller",
           "MinEnemies": 4,
           "MaxEnemies": 4,
           "MaxEnemiesAlive": 4,
@@ -2437,9 +2437,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_Floater"
+            "sosig_RW_Floater"
           ],
-          "LeaderType": "RW_Prick",
+          "LeaderType": "sosig_RW_Prick",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 6,
@@ -2461,7 +2461,7 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
           "LeaderType": "sosig_RW_RedLumberjack",
           "MinEnemies": 9,
@@ -2479,7 +2479,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Rot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 5,
         "IFFUsed": 2
@@ -2487,9 +2487,9 @@
       "Patrols": [
         {
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "PatrolSize": 2,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2504,9 +2504,9 @@
         },
         {
           "EnemyType": [
-            "RW_Floater"
+            "sosig_RW_Floater"
           ],
-          "LeaderType": "RW_Floater",
+          "LeaderType": "sosig_RW_Floater",
           "PatrolSize": 2,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2521,9 +2521,9 @@
         },
         {
           "EnemyType": [
-            "RW_Spurter"
+            "sosig_RW_Spurter"
           ],
-          "LeaderType": "RW_Spurter",
+          "LeaderType": "sosig_RW_Spurter",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2559,7 +2559,7 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Rot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 8,
         "IFFUsed": 1
@@ -2574,9 +2574,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Pig",
+          "LeaderType": "sosig_RW_Pig",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 8,
@@ -2598,7 +2598,7 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
           "LeaderType": "sosig_RW_RedLumberjack",
           "MinEnemies": 6,
@@ -2622,9 +2622,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_FunGuy",
+          "LeaderType": "sosig_RW_FunGuy",
           "MinEnemies": 9,
           "MaxEnemies": 9,
           "MaxEnemiesAlive": 9,
@@ -2640,7 +2640,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Rot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 8,
         "IFFUsed": 1
@@ -2648,9 +2648,9 @@
       "Patrols": [
         {
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "PatrolSize": 2,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2665,9 +2665,9 @@
         },
         {
           "EnemyType": [
-            "RW_Floater"
+            "sosig_RW_Floater"
           ],
-          "LeaderType": "RW_Floater",
+          "LeaderType": "sosig_RW_Floater",
           "PatrolSize": 2,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2682,9 +2682,9 @@
         },
         {
           "EnemyType": [
-            "RW_Spurter"
+            "sosig_RW_Spurter"
           ],
-          "LeaderType": "RW_Spurter",
+          "LeaderType": "sosig_RW_Spurter",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2699,9 +2699,9 @@
         },
         {
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Boner",
+          "LeaderType": "sosig_RW_Boner",
           "PatrolSize": 3,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2752,9 +2752,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Pig",
+          "LeaderType": "sosig_RW_Pig",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 12,
@@ -2776,9 +2776,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Lemonhead",
+          "LeaderType": "sosig_RW_Lemonhead",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 12,
@@ -2800,9 +2800,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_TheHung"
+            "sosig_RW_TheHung"
           ],
-          "LeaderType": "RW_OldSmokey",
+          "LeaderType": "sosig_RW_OldSmokey",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 6,
@@ -2826,9 +2826,9 @@
       "Patrols": [
         {
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "PatrolSize": 2,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2843,9 +2843,9 @@
         },
         {
           "EnemyType": [
-            "RW_Floater"
+            "sosig_RW_Floater"
           ],
-          "LeaderType": "RW_Floater",
+          "LeaderType": "sosig_RW_Floater",
           "PatrolSize": 2,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2860,9 +2860,9 @@
         },
         {
           "EnemyType": [
-            "RW_Spurter"
+            "sosig_RW_Spurter"
           ],
-          "LeaderType": "RW_Spurter",
+          "LeaderType": "sosig_RW_Spurter",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2877,9 +2877,9 @@
         },
         {
           "EnemyType": [
-            "RW_FunGuy"
+            "sosig_RW_FunGuy"
           ],
-          "LeaderType": "RW_FunGuy",
+          "LeaderType": "sosig_RW_FunGuy",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2894,9 +2894,9 @@
         },
         {
           "EnemyType": [
-            "RW_Pig"
+            "sosig_RW_Pig"
           ],
-          "LeaderType": "RW_Pig",
+          "LeaderType": "sosig_RW_Pig",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2911,9 +2911,9 @@
         },
         {
           "EnemyType": [
-            "RW_Lemonhead"
+            "sosig_RW_Lemonhead"
           ],
-          "LeaderType": "RW_Lemonhead",
+          "LeaderType": "sosig_RW_Lemonhead",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -2951,7 +2951,7 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Rot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 8,
         "IFFUsed": 1
@@ -2966,9 +2966,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Pig",
+          "LeaderType": "sosig_RW_Pig",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 8,
@@ -3014,9 +3014,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_FunGuy",
+          "LeaderType": "sosig_RW_FunGuy",
           "MinEnemies": 9,
           "MaxEnemies": 9,
           "MaxEnemiesAlive": 9,
@@ -3032,7 +3032,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Rot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 8,
         "IFFUsed": 1
@@ -3040,9 +3040,9 @@
       "Patrols": [
         {
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "PatrolSize": 2,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -3057,9 +3057,9 @@
         },
         {
           "EnemyType": [
-            "RW_Floater"
+            "sosig_RW_Floater"
           ],
-          "LeaderType": "RW_Floater",
+          "LeaderType": "sosig_RW_Floater",
           "PatrolSize": 2,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -3074,9 +3074,9 @@
         },
         {
           "EnemyType": [
-            "RW_Spurter"
+            "sosig_RW_Spurter"
           ],
-          "LeaderType": "RW_Spurter",
+          "LeaderType": "sosig_RW_Spurter",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -3144,9 +3144,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Pig",
+          "LeaderType": "sosig_RW_Pig",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 12,
@@ -3192,9 +3192,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_TheHung"
+            "sosig_RW_TheHung"
           ],
-          "LeaderType": "RW_OldSmokey",
+          "LeaderType": "sosig_RW_OldSmokey",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 6,
@@ -3218,9 +3218,9 @@
       "Patrols": [
         {
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "PatrolSize": 2,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -3235,9 +3235,9 @@
         },
         {
           "EnemyType": [
-            "RW_Floater"
+            "sosig_RW_Floater"
           ],
-          "LeaderType": "RW_Floater",
+          "LeaderType": "sosig_RW_Floater",
           "PatrolSize": 2,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -3252,9 +3252,9 @@
         },
         {
           "EnemyType": [
-            "RW_Spurter"
+            "sosig_RW_Spurter"
           ],
-          "LeaderType": "RW_Spurter",
+          "LeaderType": "sosig_RW_Spurter",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -3269,9 +3269,9 @@
         },
         {
           "EnemyType": [
-            "RW_FunGuy"
+            "sosig_RW_FunGuy"
           ],
-          "LeaderType": "RW_FunGuy",
+          "LeaderType": "sosig_RW_FunGuy",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -3286,9 +3286,9 @@
         },
         {
           "EnemyType": [
-            "RW_Pig"
+            "sosig_RW_Pig"
           ],
-          "LeaderType": "RW_Pig",
+          "LeaderType": "sosig_RW_Pig",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -3303,9 +3303,9 @@
         },
         {
           "EnemyType": [
-            "RW_Lemonhead"
+            "sosig_RW_Lemonhead"
           ],
-          "LeaderType": "RW_Lemonhead",
+          "LeaderType": "sosig_RW_Lemonhead",
           "PatrolSize": 1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 8,
@@ -3356,9 +3356,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_HamFister"
+            "sosig_RW_HamFister"
           ],
-          "LeaderType": "RW_HamFister",
+          "LeaderType": "sosig_RW_HamFister",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 6,
@@ -3380,9 +3380,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Beefkicker"
+            "sosig_RW_Beefkicker"
           ],
-          "LeaderType": "RW_Beefkicker",
+          "LeaderType": "sosig_RW_Beefkicker",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 6,
@@ -3404,9 +3404,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_Spurter"
+            "sosig_RW_Spurter"
           ],
-          "LeaderType": "RW_Spurter",
+          "LeaderType": "sosig_RW_Spurter",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 6,
@@ -3430,9 +3430,9 @@
       "Patrols": [
         {
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "PatrolSize": -1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 7,
@@ -3447,9 +3447,9 @@
         },
         {
           "EnemyType": [
-            "RW_Floater"
+            "sosig_RW_Floater"
           ],
-          "LeaderType": "RW_Floater",
+          "LeaderType": "sosig_RW_Floater",
           "PatrolSize": -1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 7,
@@ -3464,9 +3464,9 @@
         },
         {
           "EnemyType": [
-            "RW_Driller"
+            "sosig_RW_Driller"
           ],
-          "LeaderType": "RW_Driller",
+          "LeaderType": "sosig_RW_Driller",
           "PatrolSize": -1,
           "MaxPatrols": 12,
           "MaxPatrolsLimited": 7,
@@ -3502,7 +3502,7 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Rot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 9,
         "IFFUsed": 1
@@ -3517,9 +3517,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "MinEnemies": 1,
           "MaxEnemies": 2,
           "MaxEnemiesAlive": 9,
@@ -3565,9 +3565,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Driller"
+            "sosig_RW_Driller"
           ],
-          "LeaderType": "RW_FunGuy",
+          "LeaderType": "sosig_RW_FunGuy",
           "MinEnemies": 6,
           "MaxEnemies": 6,
           "MaxEnemiesAlive": 6,
@@ -3583,7 +3583,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Rot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 9,
         "IFFUsed": 1
@@ -3629,7 +3629,7 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Floater",
+        "EnemyType": "sosig_RW_Floater",
         "NumTurrets": 0,
         "NumGuards": 8,
         "IFFUsed": 1
@@ -3644,9 +3644,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Pig"
+            "sosig_RW_Pig"
           ],
-          "LeaderType": "RW_Pig",
+          "LeaderType": "sosig_RW_Pig",
           "MinEnemies": 1,
           "MaxEnemies": 1,
           "MaxEnemiesAlive": 6,
@@ -3668,9 +3668,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_Pig"
+            "sosig_RW_Pig"
           ],
-          "LeaderType": "RW_Pig",
+          "LeaderType": "sosig_RW_Pig",
           "MinEnemies": 1,
           "MaxEnemies": 1,
           "MaxEnemiesAlive": 6,
@@ -3692,9 +3692,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RW_Pig"
+            "sosig_RW_Pig"
           ],
-          "LeaderType": "RW_Pig",
+          "LeaderType": "sosig_RW_Pig",
           "MinEnemies": 1,
           "MaxEnemies": 1,
           "MaxEnemiesAlive": 6,
@@ -3710,7 +3710,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Floater",
+        "EnemyType": "sosig_RW_Floater",
         "NumTurrets": 0,
         "NumGuards": 8,
         "IFFUsed": 1
@@ -3735,9 +3735,9 @@
         },
         {
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "PatrolSize": 2,
           "MaxPatrols": 6,
           "MaxPatrolsLimited": 3,
@@ -3773,7 +3773,7 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Pig",
+        "EnemyType": "sosig_RW_Pig",
         "NumTurrets": 0,
         "NumGuards": 7,
         "IFFUsed": 1
@@ -3788,9 +3788,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Rot"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RW_Rot",
+          "LeaderType": "sosig_RW_Rot",
           "MinEnemies": 3,
           "MaxEnemies": 3,
           "MaxEnemiesAlive": 3,
@@ -3812,7 +3812,7 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Driller"
+            "sosig_RW_Driller"
           ],
           "LeaderType": "M_Swat_Ranger",
           "MinEnemies": 3,
@@ -3836,9 +3836,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Spurter"
+            "sosig_RW_Spurter"
           ],
-          "LeaderType": "RW_Spurter",
+          "LeaderType": "sosig_RW_Spurter",
           "MinEnemies": 3,
           "MaxEnemies": 3,
           "MaxEnemiesAlive": 3,
@@ -3860,9 +3860,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Pig"
+            "sosig_RW_Pig"
           ],
-          "LeaderType": "RW_Pig",
+          "LeaderType": "sosig_RW_Pig",
           "MinEnemies": 3,
           "MaxEnemies": 3,
           "MaxEnemiesAlive": 3,
@@ -3884,9 +3884,9 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RW_Driller"
+            "sosig_RW_Driller"
           ],
-          "LeaderType": "RW_Lemonhead",
+          "LeaderType": "sosig_RW_Lemonhead",
           "MinEnemies": 3,
           "MaxEnemies": 3,
           "MaxEnemiesAlive": 3,
@@ -3902,7 +3902,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RW_Pig",
+        "EnemyType": "sosig_RW_Pig",
         "NumTurrets": 0,
         "NumGuards": 7,
         "IFFUsed": 1

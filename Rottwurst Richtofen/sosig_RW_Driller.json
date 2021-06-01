@@ -1,0 +1,182 @@
+{
+  "DisplayName": "Driller",
+  "SosigEnemyCategory": "RotwienerRots",
+  "SosigEnemyID": "RW_Driller",
+  "SosigPrefabs": [
+    "ZosigBody_Floater"
+  ],
+  "Configs": [
+    {
+      "ViewDistance": 45.0,
+      "HearingDistance": 300.0,
+      "MaxFOV": 105.0,
+      "SearchExtentsModifier": 1.0,
+      "DoesAggroOnFriendlyFire": false,
+      "HasABrain": false,
+      "DoesDropWeaponsOnBallistic": false,
+      "CanPickupRanged": false,
+      "CanPickupMelee": true,
+      "CanPickupOther": false,
+      "TargetCapacity": 3,
+      "TargetTrackingTime": 2.0,
+      "NoFreshTargetTime": 1.5,
+      "AssaultPointOverridesSkirmishPointWhenFurtherThan": 200.0,
+      "RunSpeed": 1.6,
+      "WalkSpeed": 1.4,
+      "SneakSpeed": 1.0,
+      "CrawlSpeed": 0.8,
+      "TurnSpeed": 1.5,
+      "MaxJointLimit": 30.0,
+      "MovementRotMagnitude": 25.0,
+      "TotalMustard": 100.0,
+      "BleedDamageMult": 0.3,
+      "BleedRateMultiplier": 1.0,
+      "BleedVFXIntensity": 1.0,
+      "DamMult_Projectile": 0.8,
+      "DamMult_Explosive": 0.0,
+      "DamMult_Melee": 1.0,
+      "DamMult_Piercing": 0.8,
+      "DamMult_Blunt": 1.0,
+      "DamMult_Cutting": 1.0,
+      "DamMult_Thermal": 0.0,
+      "DamMult_Chilling": 1.0,
+      "DamMult_EMP": 1.0,
+      "LinkDamageMultipliers": [
+        1.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "LinkStaggerMultipliers": [
+        2.5,
+        0.4,
+        0.8,
+        1.5
+      ],
+      "StartingLinkIntegrity": [
+        {
+          "x": 30.0,
+          "y": 100.0
+        },
+        {
+          "x": 30.0,
+          "y": 100.0
+        },
+        {
+          "x": 30.0,
+          "y": 100.0
+        },
+        {
+          "x": 30.0,
+          "y": 100.0
+        }
+      ],
+      "StartingChanceBrokenJoint": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ShudderThreshold": 2.0,
+      "ConfusionThreshold": 1.2,
+      "ConfusionMultiplier": 3.0,
+      "ConfusionTimeMax": 4.0,
+      "StunThreshold": 1.4,
+      "StunMultiplier": 1.4,
+      "StunTimeMax": 4.0,
+      "CanBeGrabbed": true,
+      "CanBeSevered": true,
+      "CanBeStabbed": true,
+      "CanBeSurpressed": false,
+      "SuppressionMult": 1.0,
+      "DoesJointBreakKill_Head": false,
+      "DoesJointBreakKill_Upper": false,
+      "DoesJointBreakKill_Lower": false,
+      "DoesSeverKill_Head": true,
+      "DoesSeverKill_Upper": true,
+      "DoesSeverKill_Lower": false,
+      "DoesExplodeKill_Head": true,
+      "DoesExplodeKill_Upper": true,
+      "DoesExplodeKill_Lower": false
+    }
+  ],
+  "ConfigsEasy": [],
+  "OutfitConfigs": [
+    {
+      "Headwear": [
+        "SosigAccessory_Common_MinerHelmet"
+      ],
+      "Chance_Headwear": 1.0,
+      "ForceWearAllHead": false,
+      "Eyewear": [],
+      "Chance_Eyewear": 0.0,
+      "ForceWearAllEye": false,
+      "Facewear": [
+        "SosigAccessory_Tactical_WelderMask_Swat"
+      ],
+      "Chance_Facewear": 1.0,
+      "ForceWearAllFace": false,
+      "Torsowear": [
+        "SosigAccessory_Tactical_HeavyArmour_Desert"
+      ],
+      "Chance_Torsowear": 1.0,
+      "ForceWearAllTorso": false,
+      "Pantswear": [
+        "SosigAccessory_Tactical_LightPants_Desert"
+      ],
+      "Chance_Pantswear": 1.0,
+      "ForceWearAllPants": false,
+      "Pantswear_Lower": [
+        "SosigAccessory_Tactical_LightPants_Desert"
+      ],
+      "Chance_Pantswear_Lower": 1.0,
+      "ForceWearAllPantsLower": false,
+      "Backpacks": [],
+      "Chance_Backpacks": 0.0,
+      "ForceWearAllBackpacks": false
+    }
+  ],
+  "WeaponOptions": [
+    "SosigMelee_Rusty_Pickaxe",
+    "SosigMelee_Rusty_Jackhammer"
+  ],
+  "WeaponOptionsSecondary": [],
+  "WeaponOptionsTertiary": [],
+  "SecondaryChance": 0.0,
+  "TertiaryChance": 0.0,
+  "DroppedLootChance": 0.0,
+  "DroppedObjectPool": {
+    "Category": "Firearm",
+    "Rarity": 0.0,
+    "RequiredQuest": null,
+    "ItemsToSpawn": 0,
+    "MinAmmoCapacity": 0,
+    "MaxAmmoCapacity": 0,
+    "NumMagsSpawned": 0,
+    "NumClipsSpawned": 0,
+    "NumRoundsSpawned": 0,
+    "SpawnMagAndClip": false,
+    "BespokeAttachmentChance": 0.0,
+    "IsCompatibleMagazine": false,
+    "AutoPopulateGroup": false,
+    "ForceSpawnAllSubPools": false,
+    "IDOverride": [],
+    "Eras": [],
+    "Sets": [],
+    "Sizes": [],
+    "Actions": [],
+    "Modes": [],
+    "ExcludedModes": [],
+    "FeedOptions": [],
+    "MountsAvailable": [],
+    "RoundPowers": [],
+    "Features": [],
+    "MeleeStyles": [],
+    "MeleeHandedness": [],
+    "MountTypes": [],
+    "PowerupTypes": null,
+    "ThrownTypes": [],
+    "ThrownDamageTypes": [],
+    "SubGroups": []
+  }
+}

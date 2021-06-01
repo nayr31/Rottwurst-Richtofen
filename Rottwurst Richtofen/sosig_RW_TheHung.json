@@ -1,0 +1,250 @@
+{
+  "DisplayName": "TheHung",
+  "SosigEnemyCategory": "RotwienerRots",
+  "SosigEnemyID": "RW_TheHung",
+  "SosigPrefabs": [
+    "ZosigBody_TheHung"
+  ],
+  "Configs": [
+    {
+      "ViewDistance": 30.0,
+      "HearingDistance": 300.0,
+      "MaxFOV": 105.0,
+      "SearchExtentsModifier": 1.0,
+      "DoesAggroOnFriendlyFire": false,
+      "HasABrain": false,
+      "DoesDropWeaponsOnBallistic": false,
+      "CanPickupRanged": false,
+      "CanPickupMelee": true,
+      "CanPickupOther": false,
+      "TargetCapacity": 3,
+      "TargetTrackingTime": 2.0,
+      "NoFreshTargetTime": 1.5,
+      "AssaultPointOverridesSkirmishPointWhenFurtherThan": 200.0,
+      "RunSpeed": 6.0,
+      "WalkSpeed": 2.0,
+      "SneakSpeed": 1.5,
+      "CrawlSpeed": 1.5,
+      "TurnSpeed": 1.5,
+      "MaxJointLimit": 20.0,
+      "MovementRotMagnitude": 15.0,
+      "TotalMustard": 100.0,
+      "BleedDamageMult": 0.8,
+      "BleedRateMultiplier": 1.0,
+      "BleedVFXIntensity": 2.0,
+      "DamMult_Projectile": 1.0,
+      "DamMult_Explosive": 1.0,
+      "DamMult_Melee": 0.5,
+      "DamMult_Piercing": 1.0,
+      "DamMult_Blunt": 1.0,
+      "DamMult_Cutting": 1.0,
+      "DamMult_Thermal": 1.0,
+      "DamMult_Chilling": 1.0,
+      "DamMult_EMP": 1.0,
+      "LinkDamageMultipliers": [
+        0.1,
+        0.4,
+        0.4,
+        0.8
+      ],
+      "LinkStaggerMultipliers": [
+        6.0,
+        0.4,
+        0.8,
+        1.5
+      ],
+      "StartingLinkIntegrity": [
+        {
+          "x": 50.0,
+          "y": 100.0
+        },
+        {
+          "x": 50.0,
+          "y": 100.0
+        },
+        {
+          "x": 50.0,
+          "y": 100.0
+        },
+        {
+          "x": 50.0,
+          "y": 100.0
+        }
+      ],
+      "StartingChanceBrokenJoint": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ShudderThreshold": 2.0,
+      "ConfusionThreshold": 1.2,
+      "ConfusionMultiplier": 3.0,
+      "ConfusionTimeMax": 4.0,
+      "StunThreshold": 1.4,
+      "StunMultiplier": 3.0,
+      "StunTimeMax": 8.0,
+      "CanBeGrabbed": true,
+      "CanBeSevered": true,
+      "CanBeStabbed": true,
+      "CanBeSurpressed": false,
+      "SuppressionMult": 1.0,
+      "DoesJointBreakKill_Head": false,
+      "DoesJointBreakKill_Upper": false,
+      "DoesJointBreakKill_Lower": false,
+      "DoesSeverKill_Head": true,
+      "DoesSeverKill_Upper": true,
+      "DoesSeverKill_Lower": false,
+      "DoesExplodeKill_Head": true,
+      "DoesExplodeKill_Upper": true,
+      "DoesExplodeKill_Lower": false
+    }
+  ],
+  "ConfigsEasy": [],
+  "OutfitConfigs": [
+    {
+      "Headwear": [
+        "SosigAccessory_Common_NooseBag"
+      ],
+      "Chance_Headwear": 1.0,
+      "ForceWearAllHead": false,
+      "Eyewear": [],
+      "Chance_Eyewear": 0.0,
+      "ForceWearAllEye": false,
+      "Facewear": [],
+      "Chance_Facewear": 0.0,
+      "ForceWearAllFace": false,
+      "Torsowear": [
+        "Sosig_desperado_torso_banditponcho_crimson",
+        "Sosig_desperado_torso_banditponcho_red",
+        "Sosig_desperado_torso_banditponcho_tan",
+        "Sosig_desperado_torso_duster_black",
+        "Sosig_desperado_torso_duster_brown",
+        "Sosig_desperado_torso_duster_red",
+        "Sosig_desperado_torso_duster_tan",
+        "Sosig_desperado_torso_southwestponcho_brown",
+        "Sosig_desperado_torso_southwestponcho_red",
+        "Sosig_desperado_torso_southwestponcho_tan",
+        "Sosig_desperado_torso_southwestponcho_yellow",
+        "Sosig_desperado_torso_vest_brocade",
+        "Sosig_desperado_torso_vest_plain",
+        "Sosig_desperado_torso_vest_striped"
+      ],
+      "Chance_Torsowear": 1.0,
+      "ForceWearAllTorso": false,
+      "Pantswear": [
+        "SosigAccessory_MountainMeat_Pants_Black",
+        "SosigAccessory_MountainMeat_Pants_Brown",
+        "SosigAccessory_MountainMeat_Pants_Grey",
+        "SosigAccessory_MountainMeat_Pants_LightGrey",
+        "SosigAccessory_MountainMeat_Pants_Olive",
+        "SosigAccessory_MountainMeat_Pants_Tan",
+        "SosigAccessory_MountainMeat_Pants_Umber"
+      ],
+      "Chance_Pantswear": 1.0,
+      "ForceWearAllPants": false,
+      "Pantswear_Lower": [],
+      "Chance_Pantswear_Lower": 0.0,
+      "ForceWearAllPantsLower": false,
+      "Backpacks": [],
+      "Chance_Backpacks": 0.0,
+      "ForceWearAllBackpacks": false
+    },
+    {
+      "Headwear": [
+        "SosigAccessory_Common_NooseBag"
+      ],
+      "Chance_Headwear": 1.0,
+      "ForceWearAllHead": false,
+      "Eyewear": [],
+      "Chance_Eyewear": 0.0,
+      "ForceWearAllEye": false,
+      "Facewear": [],
+      "Chance_Facewear": 0.0,
+      "ForceWearAllFace": false,
+      "Torsowear": [
+        "SosigAccessory_Common_Blouse_Flowers_BabyBlue",
+        "SosigAccessory_Common_Blouse_Flowers_Lilac",
+        "SosigAccessory_Common_Blouse_Flowers_Rose",
+        "SosigAccessory_Common_Blouse_Flowers_Yellow",
+        "SosigAccessory_Common_Blouse_HotDogs",
+        "SosigAccessory_Common_Blouse_Polkadots",
+        "SosigAccessory_Common_Blouse_SingleColor_Black",
+        "SosigAccessory_Common_Blouse_SingleColor_Brown",
+        "SosigAccessory_Common_Blouse_SingleColor_Lime",
+        "SosigAccessory_Common_Blouse_SingleColor_Orange",
+        "SosigAccessory_Common_Blouse_SingleColor_Ultramarine",
+        "SosigAccessory_Common_Blouse_SingleColor_Violet",
+        "SosigAccessory_Common_Blouse_SingleColor_White",
+        "SosigAccessory_Common_Blouse_SingleColor_Yellow",
+        "SosigAccessory_Common_Blouse_Squares_Blue",
+        "SosigAccessory_Common_Blouse_Squares_Red"
+      ],
+      "Chance_Torsowear": 1.0,
+      "ForceWearAllTorso": false,
+      "Pantswear": [
+        "SosigAccessory_MountainMeat_Pants_Black",
+        "SosigAccessory_MountainMeat_Pants_Brown",
+        "SosigAccessory_MountainMeat_Pants_Grey",
+        "SosigAccessory_MountainMeat_Pants_LightGrey",
+        "SosigAccessory_MountainMeat_Pants_Olive",
+        "SosigAccessory_MountainMeat_Pants_Tan",
+        "SosigAccessory_MountainMeat_Pants_Umber"
+      ],
+      "Chance_Pantswear": 1.0,
+      "ForceWearAllPants": false,
+      "Pantswear_Lower": [],
+      "Chance_Pantswear_Lower": 0.0,
+      "ForceWearAllPantsLower": false,
+      "Backpacks": [],
+      "Chance_Backpacks": 0.0,
+      "ForceWearAllBackpacks": false
+    }
+  ],
+  "WeaponOptions": [
+    "SosigMelee_Rusty_Pitchfork",
+    "SosigMelee_Rusty_Spade",
+    "SosigMelee_Rusty_Hatchet"
+  ],
+  "WeaponOptionsSecondary": [
+    "SosigMelee_Rusty_Torch"
+  ],
+  "WeaponOptionsTertiary": [],
+  "SecondaryChance": 0.5,
+  "TertiaryChance": 0.0,
+  "DroppedLootChance": 0.0,
+  "DroppedObjectPool": {
+    "Category": "Firearm",
+    "Rarity": 0.0,
+    "RequiredQuest": null,
+    "ItemsToSpawn": 0,
+    "MinAmmoCapacity": 0,
+    "MaxAmmoCapacity": 0,
+    "NumMagsSpawned": 0,
+    "NumClipsSpawned": 0,
+    "NumRoundsSpawned": 0,
+    "SpawnMagAndClip": false,
+    "BespokeAttachmentChance": 0.0,
+    "IsCompatibleMagazine": false,
+    "AutoPopulateGroup": false,
+    "ForceSpawnAllSubPools": false,
+    "IDOverride": [],
+    "Eras": [],
+    "Sets": [],
+    "Sizes": [],
+    "Actions": [],
+    "Modes": [],
+    "ExcludedModes": [],
+    "FeedOptions": [],
+    "MountsAvailable": [],
+    "RoundPowers": [],
+    "Features": [],
+    "MeleeStyles": [],
+    "MeleeHandedness": [],
+    "MountTypes": [],
+    "PowerupTypes": null,
+    "ThrownTypes": [],
+    "ThrownDamageTypes": [],
+    "SubGroups": []
+  }
+}

@@ -1,0 +1,78 @@
+-------1--------
+Take:
+- Rot (3)
+
+Hold:
+(1)-----
+- Rot leader (3)
+	Rot
+6 max
+20
+20
+7
+
+Supply:
+- Rot (3)
+
+Patrols:
+- Rot (1)
+	Rot
+
+
+
+-------2--------
+Take:
+- Rot (5)
+
+Hold:
+(1)-----
+- Floater leader (3)
+	Rot
+4 max
+20
+20
+7
+
+(2)-----
+- HamFister leader (4)
+	Rot
+6 max
+20
+30
+7
+
+Supply: 
+- Rot (4)
+
+Patrols:
+- Rot (1)
+	Rot
+- Floater (1)
+	Floater
+
+
+-------3-------
+Take:
+- Rot (5)
+
+Hold:
+(1)-----
+- Driller (4)
+	Rot
+4 max
+20
+20
+7
+
+(2)-----
+- Prick (6)
+	Floater
+6 max
+30
+30
+7
+
+(3)-----
+- RedLumberjack (9)
+	Rot
+max 9

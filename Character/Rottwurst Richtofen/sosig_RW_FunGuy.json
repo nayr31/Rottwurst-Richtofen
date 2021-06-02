@@ -1,74 +1,74 @@
 {
-  "DisplayName": "BeefKicker",
+  "DisplayName": "FunGuy",
   "SosigEnemyCategory": "RotwienerRots",
-  "SosigEnemyID": "RW_Beefkicker",
+  "SosigEnemyID": "sosig_RW_FunGuy",
   "SosigPrefabs": [
-    "ZosigBody_Rot"
+    "ZosigBody_FunGuy"
   ],
   "Configs": [
     {
-      "ViewDistance": 50.0,
+      "ViewDistance": 70.0,
       "HearingDistance": 300.0,
       "MaxFOV": 105.0,
       "SearchExtentsModifier": 1.0,
       "DoesAggroOnFriendlyFire": false,
-      "HasABrain": false,
+      "HasABrain": true,
       "DoesDropWeaponsOnBallistic": false,
-      "CanPickupRanged": false,
-      "CanPickupMelee": true,
+      "CanPickupRanged": true,
+      "CanPickupMelee": false,
       "CanPickupOther": false,
       "TargetCapacity": 3,
       "TargetTrackingTime": 2.0,
       "NoFreshTargetTime": 1.5,
       "AssaultPointOverridesSkirmishPointWhenFurtherThan": 200.0,
-      "RunSpeed": 7.0,
-      "WalkSpeed": 3.5,
+      "RunSpeed": 2.5,
+      "WalkSpeed": 2.5,
       "SneakSpeed": 2.5,
       "CrawlSpeed": 2.5,
-      "TurnSpeed": 2.0,
-      "MaxJointLimit": 20.0,
+      "TurnSpeed": 1.0,
+      "MaxJointLimit": 15.0,
       "MovementRotMagnitude": 15.0,
       "TotalMustard": 100.0,
       "BleedDamageMult": 0.3,
       "BleedRateMultiplier": 1.0,
       "BleedVFXIntensity": 1.0,
-      "DamMult_Projectile": 1.0,
-      "DamMult_Explosive": 1.0,
-      "DamMult_Melee": 1.0,
-      "DamMult_Piercing": 1.0,
-      "DamMult_Blunt": 0.2,
-      "DamMult_Cutting": 1.0,
-      "DamMult_Thermal": 1.0,
-      "DamMult_Chilling": 1.0,
+      "DamMult_Projectile": 0.05,
+      "DamMult_Explosive": 0.0,
+      "DamMult_Melee": 0.0,
+      "DamMult_Piercing": 0.0,
+      "DamMult_Blunt": 0.0,
+      "DamMult_Cutting": 0.0,
+      "DamMult_Thermal": 0.0,
+      "DamMult_Chilling": 0.0,
       "DamMult_EMP": 1.0,
       "LinkDamageMultipliers": [
-        5.0,
+        1.5,
         0.5,
         0.5,
         1.0
       ],
       "LinkStaggerMultipliers": [
-        4.0,
+        3.5,
         0.4,
         0.8,
-        2.5
+        1.5
       ],
       "StartingLinkIntegrity": [
         {
-          "x": 50.0,
-          "y": 100.0
+          "x": 30.0,
+          "y": 30.0
         },
         {
-          "x": 50.0,
-          "y": 100.0
+          "x": 30.0,
+          "y": 30.0
         },
         {
-          "x": 50.0,
-          "y": 100.0
+          "x": 30.0,
+          "y": 30.0
         },
         {
-          "x": 50.0,
-          "y": 100.0
+          "x": 30.0,
+          "y": 30.0
         }
       ],
       "StartingChanceBrokenJoint": [
@@ -103,10 +103,8 @@
   "ConfigsEasy": [],
   "OutfitConfigs": [
     {
-      "Headwear": [
-        "SosigAccessory_Common_FootballHelment_BeefKickers"
-      ],
-      "Chance_Headwear": 1.0,
+      "Headwear": [],
+      "Chance_Headwear": 0.0,
       "ForceWearAllHead": false,
       "Eyewear": [],
       "Chance_Eyewear": 0.0,
@@ -114,10 +112,8 @@
       "Facewear": [],
       "Chance_Facewear": 0.0,
       "ForceWearAllFace": false,
-      "Torsowear": [
-        "SosigAccessory_Common_FootballPads_BeefKickers"
-      ],
-      "Chance_Torsowear": 1.0,
+      "Torsowear": [],
+      "Chance_Torsowear": 0.0,
       "ForceWearAllTorso": false,
       "Pantswear": [],
       "Chance_Pantswear": 0.0,
@@ -131,7 +127,7 @@
     }
   ],
   "WeaponOptions": [
-    "SosigMelee_Rusty_Hatchet"
+    "Sosiggun_FungusMortar"
   ],
   "WeaponOptionsSecondary": [],
   "WeaponOptionsTertiary": [],

@@ -6,7 +6,7 @@
         "h3vr.tnhtweaker.deli": "1.6.0"
       },
     "name": "Rottwurst Richtofen",
-    "description": "",
+    "description": "yes",
     "source_url": "",
     "authors": [
         "gamernayr"
@@ -14,8 +14,8 @@
       "assets": {
         "patcher": {},
         "setup": {
-            "Rottwurst Richtofen/": "h3vr.tnhtweaker.deli:character",
-            "Rottwurst Richtofen/*sosig*.json": "h3vr.tnhtweaker.deli:sosig"
+          "Rottwurst Richtofen/*sosig*.json": "h3vr.tnhtweaker.deli:sosig",
+          "Rottwurst Richtofen/": "h3vr.tnhtweaker.deli:character"
         }
     }
   }

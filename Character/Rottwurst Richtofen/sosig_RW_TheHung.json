@@ -1,7 +1,7 @@
 {
   "DisplayName": "TheHung",
   "SosigEnemyCategory": "RotwienerRots",
-  "SosigEnemyID": "RW_TheHung",
+  "SosigEnemyID": "sosig_RW_TheHung",
   "SosigPrefabs": [
     "ZosigBody_TheHung"
   ],

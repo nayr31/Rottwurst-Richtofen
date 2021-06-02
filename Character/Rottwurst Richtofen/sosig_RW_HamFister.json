@@ -1,7 +1,7 @@
 {
   "DisplayName": "HamFister",
   "SosigEnemyCategory": "RotwienerRots",
-  "SosigEnemyID": "RW_HamFister",
+  "SosigEnemyID": "sosig_RW_HamFister",
   "SosigPrefabs": [
     "ZosigBody_Rot"
   ],

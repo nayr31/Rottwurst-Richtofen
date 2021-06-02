@@ -1,7 +1,7 @@
 {
   "DisplayName": "Prick",
   "SosigEnemyCategory": "RotwienerRots",
-  "SosigEnemyID": "RW_Prick",
+  "SosigEnemyID": "sosig_RW_Prick",
   "SosigPrefabs": [
     "ZosigBody_Prick"
   ],

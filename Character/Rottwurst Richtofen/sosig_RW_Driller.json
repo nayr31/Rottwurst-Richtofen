@@ -1,13 +1,13 @@
 {
-  "DisplayName": "Pig",
+  "DisplayName": "Driller",
   "SosigEnemyCategory": "RotwienerRots",
-  "SosigEnemyID": "RW_Pig",
+  "SosigEnemyID": "sosig_RW_Driller",
   "SosigPrefabs": [
-    "ZosigBody_Rot"
+    "ZosigBody_Floater"
   ],
   "Configs": [
     {
-      "ViewDistance": 30.0,
+      "ViewDistance": 45.0,
       "HearingDistance": 300.0,
       "MaxFOV": 105.0,
       "SearchExtentsModifier": 1.0,
@@ -21,7 +21,7 @@
       "TargetTrackingTime": 2.0,
       "NoFreshTargetTime": 1.5,
       "AssaultPointOverridesSkirmishPointWhenFurtherThan": 200.0,
-      "RunSpeed": 3.5,
+      "RunSpeed": 1.6,
       "WalkSpeed": 1.4,
       "SneakSpeed": 1.0,
       "CrawlSpeed": 0.8,
@@ -29,16 +29,16 @@
       "MaxJointLimit": 30.0,
       "MovementRotMagnitude": 25.0,
       "TotalMustard": 100.0,
-      "BleedDamageMult": 0.4,
+      "BleedDamageMult": 0.3,
       "BleedRateMultiplier": 1.0,
       "BleedVFXIntensity": 1.0,
-      "DamMult_Projectile": 1.0,
-      "DamMult_Explosive": 1.0,
-      "DamMult_Melee": 0.6,
-      "DamMult_Piercing": 1.0,
+      "DamMult_Projectile": 0.8,
+      "DamMult_Explosive": 0.0,
+      "DamMult_Melee": 1.0,
+      "DamMult_Piercing": 0.8,
       "DamMult_Blunt": 1.0,
       "DamMult_Cutting": 1.0,
-      "DamMult_Thermal": 1.0,
+      "DamMult_Thermal": 0.0,
       "DamMult_Chilling": 1.0,
       "DamMult_EMP": 1.0,
       "LinkDamageMultipliers": [
@@ -48,7 +48,7 @@
         1.0
       ],
       "LinkStaggerMultipliers": [
-        3.5,
+        2.5,
         0.4,
         0.8,
         1.5
@@ -72,7 +72,7 @@
         }
       ],
       "StartingChanceBrokenJoint": [
-        1.0,
+        0.0,
         0.0,
         0.0,
         0.0
@@ -104,32 +104,30 @@
   "OutfitConfigs": [
     {
       "Headwear": [
-        "SosigAccessory_Tactical_GasMask1"
+        "SosigAccessory_Common_MinerHelmet"
       ],
       "Chance_Headwear": 1.0,
       "ForceWearAllHead": false,
       "Eyewear": [],
       "Chance_Eyewear": 0.0,
       "ForceWearAllEye": false,
-      "Facewear": [],
-      "Chance_Facewear": 0.0,
+      "Facewear": [
+        "SosigAccessory_Tactical_WelderMask_Swat"
+      ],
+      "Chance_Facewear": 1.0,
       "ForceWearAllFace": false,
       "Torsowear": [
-        "SosigAccessory_Tactical_LightArmour_Swat",
-        "SosigAccessory_Tactical_MediumArmour_Swat",
-        "SosigAccessory_Tactical_HeavyArmour_Swat"
+        "SosigAccessory_Tactical_HeavyArmour_Desert"
       ],
       "Chance_Torsowear": 1.0,
       "ForceWearAllTorso": false,
       "Pantswear": [
-        "SosigAccessory_Tactical_LightPants_Swat",
-        "SosigAccessory_Tactical_HeavyPants_Swat"
+        "SosigAccessory_Tactical_LightPants_Desert"
       ],
       "Chance_Pantswear": 1.0,
       "ForceWearAllPants": false,
       "Pantswear_Lower": [
-        "SosigAccessory_Tactical_LightPants_Swat",
-        "SosigAccessory_Tactical_HeavyPants_Swat"
+        "SosigAccessory_Tactical_LightPants_Desert"
       ],
       "Chance_Pantswear_Lower": 1.0,
       "ForceWearAllPantsLower": false,
@@ -139,13 +137,12 @@
     }
   ],
   "WeaponOptions": [
-    "SosigMelee_Rusty_Baton"
+    "SosigMelee_Rusty_Pickaxe",
+    "SosigMelee_Rusty_Jackhammer"
   ],
-  "WeaponOptionsSecondary": [
-    "SosigMelee_Shield_Riot"
-  ],
+  "WeaponOptionsSecondary": [],
   "WeaponOptionsTertiary": [],
-  "SecondaryChance": 1.0,
+  "SecondaryChance": 0.0,
   "TertiaryChance": 0.0,
   "DroppedLootChance": 0.0,
   "DroppedObjectPool": {

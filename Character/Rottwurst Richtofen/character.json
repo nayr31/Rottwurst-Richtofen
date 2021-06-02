@@ -1,6 +1,6 @@
 ﻿{
   "DisplayName": "Rottwurst Richtofen",
-  "Description": "Special Loadout\nLots of Melee Enemies\n\nUses Special Progression\nNOTE: One Hit Mode VERY HARD",
+  "Description": "A modified ZombieHunter Zeke\nNo sosigs, ONLY ZOSIGS",
   "CharacterGroup": 2,
   "TableID": "MM_C02",
   "StartingTokens": 3,
@@ -2175,6 +2175,95 @@
         "SubGroups": []
       },
       "BackupGroup": null
+    },
+    {
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_case_big",
+      "TokenCost": 7,
+      "TokenCostLimited": 7,
+      "MinLevelAppears": 3,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": true,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 3.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 20,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 4,
+        "SpawnMagAndClip": true,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "Modern"
+        ],
+        "Sets": [
+          "Real"
+        ],
+        "Sizes": [
+          "Carbine",
+          "FullSize"
+        ],
+        "Actions": [],
+        "Modes": [
+          "FullAuto",
+          "SingleFire",
+          "SemiAuto"
+        ],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      },
+      "BackupGroup": {
+        "Category": "",
+        "Rarity": null,
+        "RequiredQuest": "",
+        "ItemsToSpawn": null,
+        "MinAmmoCapacity": null,
+        "MaxAmmoCapacity": null,
+        "NumMagsSpawned": null,
+        "NumClipsSpawned": null,
+        "NumRoundsSpawned": null,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": null,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      }
     }
   ],
   "Levels": [
@@ -2202,7 +2291,7 @@
         "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 3,
-        "IFFUsed": 2
+        "IFFUsed": 1
       },
       "HoldPhases": [
         {
@@ -2232,10 +2321,10 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "MountainMeat_Pistol",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 3,
-        "IFFUsed": 2
+        "IFFUsed": 1
       },
       "Patrols": [
         {
@@ -2280,8 +2369,8 @@
         "TurretType": "SMG",
         "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
-        "NumGuards": 3,
-        "IFFUsed": 2
+        "NumGuards": 5,
+        "IFFUsed": 1
       },
       "HoldPhases": [
         {
@@ -2337,8 +2426,8 @@
         "TurretType": "SMG",
         "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
-        "NumGuards": 3,
-        "IFFUsed": 2
+        "NumGuards": 4,
+        "IFFUsed": 1
       },
       "Patrols": [
         {
@@ -2401,7 +2490,7 @@
         "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 5,
-        "IFFUsed": 2
+        "IFFUsed": 1
       },
       "HoldPhases": [
         {
@@ -2482,7 +2571,7 @@
         "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 5,
-        "IFFUsed": 2
+        "IFFUsed": 1
       },
       "Patrols": [
         {
@@ -2707,7 +2796,7 @@
           "MaxPatrolsLimited": 8,
           "PatrolCadence": 10.0,
           "PatrolCadenceLimited": 30.0,
-          "IFFUsed": 3,
+          "IFFUsed": 1,
           "SwarmPlayer": false,
           "AssualtSpeed": "Walking",
           "IsBoss": false,
@@ -2818,10 +2907,10 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "RWRot",
+        "EnemyType": "sosig_RW_Rot",
         "NumTurrets": 0,
         "NumGuards": 8,
-        "IFFUsed": 3
+        "IFFUsed": 1
       },
       "Patrols": [
         {
@@ -2990,7 +3079,7 @@
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [
-            "RWP_PacSquad_Flanker"
+            "sosig_RW_FunGuy"
           ],
           "LeaderType": "RWP_PacSquad_Commander",
           "MinEnemies": 3,
@@ -3000,7 +3089,7 @@
           "SpawnCadence": 20.0,
           "ScanTime": 30.0,
           "WarmupTime": 7.0,
-          "IFFUsed": 3,
+          "IFFUsed": 1,
           "GrenadeChance": 0.0,
           "GrenadeType": "Sosiggrenade_Flash",
           "SwarmPlayer": false
@@ -3091,7 +3180,7 @@
         },
         {
           "EnemyType": [
-            "RWP_PacSquad_Flanker"
+            "sosig_RW_FunGuy"
           ],
           "LeaderType": "RWP_PacSquad_Commander",
           "PatrolSize": 3,
@@ -3099,7 +3188,7 @@
           "MaxPatrolsLimited": 8,
           "PatrolCadence": 40.0,
           "PatrolCadenceLimited": 60.0,
-          "IFFUsed": 3,
+          "IFFUsed": 1,
           "SwarmPlayer": false,
           "AssualtSpeed": "Walking",
           "IsBoss": false,
@@ -3132,7 +3221,7 @@
         "EnemyType": "RWP_PacSquad_Trooper",
         "NumTurrets": 0,
         "NumGuards": 8,
-        "IFFUsed": 3
+        "IFFUsed": 1
       },
       "HoldPhases": [
         {
@@ -3178,7 +3267,7 @@
           "SpawnCadence": 20.0,
           "ScanTime": 40.0,
           "WarmupTime": 7.0,
-          "IFFUsed": 3,
+          "IFFUsed": 1,
           "GrenadeChance": 0.0,
           "GrenadeType": "Sosiggrenade_Flash",
           "SwarmPlayer": false
@@ -3213,7 +3302,7 @@
         "EnemyType": "RWP_PacSquad_Trooper",
         "NumTurrets": 0,
         "NumGuards": 8,
-        "IFFUsed": 3
+        "IFFUsed": 1
       },
       "Patrols": [
         {
@@ -3344,7 +3433,7 @@
         "EnemyType": "MountainMeat_Rifle",
         "NumTurrets": 0,
         "NumGuards": 6,
-        "IFFUsed": 2
+        "IFFUsed": 1
       },
       "HoldPhases": [
         {
@@ -3425,7 +3514,7 @@
         "EnemyType": "MountainMeat_Rifle",
         "NumTurrets": 0,
         "NumGuards": 6,
-        "IFFUsed": 2
+        "IFFUsed": 1
       },
       "Patrols": [
         {
@@ -3541,9 +3630,9 @@
           "MinTargetsLimited": 1,
           "MaxTargetsLimited": 1,
           "EnemyType": [
-            "RWP_Skulker_Rifler"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RWP_Skulker_Shotgun",
+          "LeaderType": "sosig_RW_Rot",
           "MinEnemies": 3,
           "MaxEnemies": 4,
           "MaxEnemiesAlive": 6,
@@ -3591,15 +3680,15 @@
       "Patrols": [
         {
           "EnemyType": [
-            "RWP_Prospector_Shotgun"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RWP_Prospector_Rifle",
+          "LeaderType": "sosig_RW_Rot",
           "PatrolSize": 4,
           "MaxPatrols": 5,
           "MaxPatrolsLimited": 3,
           "PatrolCadence": 35.0,
           "PatrolCadenceLimited": 50.0,
-          "IFFUsed": 4,
+          "IFFUsed": 1,
           "SwarmPlayer": false,
           "AssualtSpeed": "Walking",
           "IsBoss": false,
@@ -3718,9 +3807,9 @@
       "Patrols": [
         {
           "EnemyType": [
-            "RWP_Skulker_Shotgun"
+            "sosig_RW_Rot"
           ],
-          "LeaderType": "RWP_Skulker_Rifler",
+          "LeaderType": "sosig_RW_Rot",
           "PatrolSize": 2,
           "MaxPatrols": 6,
           "MaxPatrolsLimited": 3,
@@ -3910,7 +3999,7 @@
       "Patrols": [
         {
           "EnemyType": [
-            "RWP_PacSquad_Flanker"
+            "sosig_RW_FunGuy"
           ],
           "LeaderType": "RWP_PacSquad_Commander",
           "PatrolSize": 3,
@@ -3918,7 +4007,7 @@
           "MaxPatrolsLimited": 3,
           "PatrolCadence": 25.0,
           "PatrolCadenceLimited": 60.0,
-          "IFFUsed": 3,
+          "IFFUsed": 1,
           "SwarmPlayer": false,
           "AssualtSpeed": "Walking",
           "IsBoss": false,

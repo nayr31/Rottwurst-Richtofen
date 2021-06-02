@@ -1,73 +1,73 @@
-﻿{
-  "DisplayName": "RedLumberjack",
+{
+  "DisplayName": "Spurter",
   "SosigEnemyCategory": "RotwienerRots",
-  "SosigEnemyID": "RW_RedLumberjack",
+  "SosigEnemyID": "sosig_RW_Spurter",
   "SosigPrefabs": [
-    "ZosigBody_Grilled"
+    "ZosigBody_Spurter"
   ],
   "Configs": [
     {
-      "ViewDistance": 180.0,
+      "ViewDistance": 30.0,
       "HearingDistance": 300.0,
       "MaxFOV": 105.0,
       "SearchExtentsModifier": 1.0,
       "DoesAggroOnFriendlyFire": false,
-      "HasABrain": false,
+      "HasABrain": true,
       "DoesDropWeaponsOnBallistic": false,
       "CanPickupRanged": false,
-      "CanPickupMelee": true,
+      "CanPickupMelee": false,
       "CanPickupOther": false,
       "TargetCapacity": 3,
       "TargetTrackingTime": 2.0,
       "NoFreshTargetTime": 1.5,
       "AssaultPointOverridesSkirmishPointWhenFurtherThan": 200.0,
-      "RunSpeed": 4.0,
-      "WalkSpeed": 2.2,
-      "SneakSpeed": 1.4,
+      "RunSpeed": 3.5,
+      "WalkSpeed": 1.4,
+      "SneakSpeed": 1.0,
       "CrawlSpeed": 0.8,
       "TurnSpeed": 1.5,
-      "MaxJointLimit": 30.0,
-      "MovementRotMagnitude": 25.0,
+      "MaxJointLimit": 6.0,
+      "MovementRotMagnitude": 10.0,
       "TotalMustard": 100.0,
-      "BleedDamageMult": 0.2,
+      "BleedDamageMult": 0.4,
       "BleedRateMultiplier": 1.0,
-      "BleedVFXIntensity": 4.0,
-      "DamMult_Projectile": 0.1,
-      "DamMult_Explosive": 0.1,
-      "DamMult_Melee": 0.5,
+      "BleedVFXIntensity": 1.0,
+      "DamMult_Projectile": 0.4,
+      "DamMult_Explosive": 0.6,
+      "DamMult_Melee": 1.0,
       "DamMult_Piercing": 1.0,
       "DamMult_Blunt": 1.0,
       "DamMult_Cutting": 1.0,
-      "DamMult_Thermal": 0.05,
+      "DamMult_Thermal": 0.6,
       "DamMult_Chilling": 1.0,
       "DamMult_EMP": 1.0,
       "LinkDamageMultipliers": [
-        1.5,
+        3.5,
         0.5,
         0.5,
         1.0
       ],
       "LinkStaggerMultipliers": [
-        5.0,
+        3.5,
         0.4,
         0.8,
-        0.8
+        1.5
       ],
       "StartingLinkIntegrity": [
         {
-          "x": 80.0,
+          "x": 30.0,
           "y": 100.0
         },
         {
-          "x": 80.0,
+          "x": 30.0,
           "y": 100.0
         },
         {
-          "x": 80.0,
+          "x": 30.0,
           "y": 100.0
         },
         {
-          "x": 80.0,
+          "x": 30.0,
           "y": 100.0
         }
       ],
@@ -77,15 +77,15 @@
         0.0,
         0.0
       ],
-      "ShudderThreshold": 2.0,
+      "ShudderThreshold": 10.0,
       "ConfusionThreshold": 1.2,
       "ConfusionMultiplier": 3.0,
       "ConfusionTimeMax": 4.0,
       "StunThreshold": 1.4,
-      "StunMultiplier": 3.0,
-      "StunTimeMax": 8.0,
-      "CanBeGrabbed": false,
-      "CanBeSevered": false,
+      "StunMultiplier": 1.4,
+      "StunTimeMax": 4.0,
+      "CanBeGrabbed": true,
+      "CanBeSevered": true,
       "CanBeStabbed": true,
       "CanBeSurpressed": false,
       "SuppressionMult": 1.0,
@@ -104,7 +104,7 @@
   "OutfitConfigs": [
     {
       "Headwear": [
-        "SosigAccessory_Common_Beanie_Crimson"
+        "SosigAccessory_MountainMeat_Truckerhat_No1"
       ],
       "Chance_Headwear": 1.0,
       "ForceWearAllHead": false,
@@ -115,12 +115,12 @@
       "Chance_Facewear": 0.0,
       "ForceWearAllFace": false,
       "Torsowear": [
-        "SosigAccessory_MountainMeat_Jacket_Flannel"
+        "SosigAccessory_MountainMeat_Undershirt_White"
       ],
       "Chance_Torsowear": 1.0,
       "ForceWearAllTorso": false,
       "Pantswear": [
-        "SosigAccessory_MountainMeat_Pants_Black"
+        "SosigAccessory_MountainMeat_Pants_JeanWorn"
       ],
       "Chance_Pantswear": 1.0,
       "ForceWearAllPants": false,
@@ -133,27 +133,27 @@
     }
   ],
   "WeaponOptions": [
-    "SosigMelee_Rusty_Hatchet_Large"
+    "Sosiggun_Barfer"
   ],
   "WeaponOptionsSecondary": [],
   "WeaponOptionsTertiary": [],
   "SecondaryChance": 0.0,
   "TertiaryChance": 0.0,
-  "DroppedLootChance": 1.0,
+  "DroppedLootChance": 0.0,
   "DroppedObjectPool": {
     "Category": "Firearm",
-    "Rarity": 1.0,
+    "Rarity": 0.0,
     "RequiredQuest": null,
-    "ItemsToSpawn": 1,
-    "MinAmmoCapacity": -1,
-    "MaxAmmoCapacity": -1,
-    "NumMagsSpawned": -1,
-    "NumClipsSpawned": -1,
-    "NumRoundsSpawned": -1,
+    "ItemsToSpawn": 0,
+    "MinAmmoCapacity": 0,
+    "MaxAmmoCapacity": 0,
+    "NumMagsSpawned": 0,
+    "NumClipsSpawned": 0,
+    "NumRoundsSpawned": 0,
     "SpawnMagAndClip": false,
-    "BespokeAttachmentChance": -1.0,
+    "BespokeAttachmentChance": 0.0,
     "IsCompatibleMagazine": false,
-    "AutoPopulateGroup": true,
+    "AutoPopulateGroup": false,
     "ForceSpawnAllSubPools": false,
     "IDOverride": [],
     "Eras": [],
@@ -164,14 +164,12 @@
     "ExcludedModes": [],
     "FeedOptions": [],
     "MountsAvailable": [],
-    "RoundPowers": [
-      "Shotgun"
-    ],
+    "RoundPowers": [],
     "Features": [],
     "MeleeStyles": [],
     "MeleeHandedness": [],
     "MountTypes": [],
-    "PowerupTypes": [],
+    "PowerupTypes": null,
     "ThrownTypes": [],
     "ThrownDamageTypes": [],
     "SubGroups": []

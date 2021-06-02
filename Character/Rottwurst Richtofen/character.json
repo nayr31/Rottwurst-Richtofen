@@ -2230,40 +2230,7 @@
         "ThrownDamageTypes": [],
         "SubGroups": []
       },
-      "BackupGroup": {
-        "Category": "",
-        "Rarity": null,
-        "RequiredQuest": "",
-        "ItemsToSpawn": null,
-        "MinAmmoCapacity": null,
-        "MaxAmmoCapacity": null,
-        "NumMagsSpawned": null,
-        "NumClipsSpawned": null,
-        "NumRoundsSpawned": null,
-        "SpawnMagAndClip": false,
-        "BespokeAttachmentChance": null,
-        "IsCompatibleMagazine": false,
-        "AutoPopulateGroup": false,
-        "ForceSpawnAllSubPools": false,
-        "IDOverride": [],
-        "Eras": [],
-        "Sets": [],
-        "Sizes": [],
-        "Actions": [],
-        "Modes": [],
-        "ExcludedModes": [],
-        "FeedOptions": [],
-        "MountsAvailable": [],
-        "RoundPowers": [],
-        "Features": [],
-        "MeleeStyles": [],
-        "MeleeHandedness": [],
-        "MountTypes": [],
-        "PowerupTypes": [],
-        "ThrownTypes": [],
-        "ThrownDamageTypes": [],
-        "SubGroups": []
-      }
+      "BackupGroup": null
     }
   ],
   "Levels": [

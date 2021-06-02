@@ -19,7 +19,6 @@ Patrols:
 	Rot
 
 
-
 -------2--------
 Take:
 - Rot (5)
@@ -51,7 +50,7 @@ Patrols:
 	Floater
 
 
--------3-------
+-------(3)-------
 Take:
 - Rot (5)
 
@@ -76,3 +75,105 @@ Hold:
 - RedLumberjack (9)
 	Rot
 max 9
+60
+30
+7
+
+Supply:
+- Rot (5)
+
+Patrols:
+- Rot (2)
+	Rot
+- Floater (2)
+	Floater
+- Spurter (1)
+	Spurter
+
+
+-------(4)-------
+Take:
+- Rot (8)
+
+Hold:
+(1)-----
+- Pig (6)
+	Rot
+max 8
+12
+20
+7
+
+(2)-----
+- RedLumberjack (6)
+	Rot
+max 8
+12
+30
+7
+
+(3)-----
+- FunGuy (9)
+	Rot
+60
+30
+7
+
+Supply:
+- Rot (8)
+
+Patrols:
+- Rot (2)
+	Rot
+- Floater (2)
+	Floater
+- Spurter (1)
+	Spurter
+- Boner (3)
+	Rot
+
+-------(5)-------
+Take:
+- Beefkicker (8)
+
+Hold:
+(1)-----
+- Pig (6)
+	Rot
+max 12
+12
+30
+7
+
+(2)-----
+- Lemonhead (6)
+	Rot
+max 12
+12
+30
+7
+
+(3)------
+- OldSmokey (6)
+	TheHung
+max 6
+40
+60
+7
+
+Supply:
+- Rot (8)
+
+Patrols:
+- Rot (2)
+	Rot
+- Floater (2)
+	Floater
+- Spurter (1)
+	Spurter
+- FunGuy (1)
+	FunGuy
+- Pig (1)
+	Pig
+- Lemonhead (1)
+	Lemonhead

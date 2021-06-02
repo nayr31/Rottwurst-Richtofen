@@ -2826,9 +2826,9 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "sosig_RW_RedLumberjack",
+        "EnemyType": "sosig_RW_Beefkicker",
         "NumTurrets": 0,
-        "NumGuards": 3,
+        "NumGuards": 8,
         "IFFUsed": 1
       },
       "HoldPhases": [

@@ -2181,7 +2181,7 @@
       "IconName": "TNH_Icon_case_big",
       "TokenCost": 7,
       "TokenCostLimited": 7,
-      "MinLevelAppears": 3,
+      "MinLevelAppears": 4,
       "MaxLevelAppears": 99,
       "SpawnsInSmallCase": false,
       "SpawnsInLargeCase": true,
@@ -2194,7 +2194,7 @@
         "MaxAmmoCapacity": -1,
         "NumMagsSpawned": 3,
         "NumClipsSpawned": 3,
-        "NumRoundsSpawned": 4,
+        "NumRoundsSpawned": 8,
         "SpawnMagAndClip": true,
         "BespokeAttachmentChance": 0.5,
         "IsCompatibleMagazine": false,
@@ -2213,14 +2213,16 @@
         ],
         "Actions": [],
         "Modes": [
-          "FullAuto",
-          "SingleFire",
-          "SemiAuto"
+          "FullAuto"
         ],
         "ExcludedModes": [],
         "FeedOptions": [],
         "MountsAvailable": [],
-        "RoundPowers": [],
+        "RoundPowers": [
+          "Shotgun",
+          "Intermediate",
+          "FullPower"
+        ],
         "Features": [],
         "MeleeStyles": [],
         "MeleeHandedness": [],

@@ -2267,7 +2267,7 @@
           "Encryptions": [
             "Static"
           ],
-          "MinTargets": 3,
+          "MinTargets": 5,
           "MaxTargets": 5,
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
@@ -2346,8 +2346,8 @@
           "Encryptions": [
             "Static"
           ],
-          "MinTargets": 3,
-          "MaxTargets": 3,
+          "MinTargets": 5,
+          "MaxTargets": 5,
           "MinTargetsLimited": 3,
           "MaxTargetsLimited": 3,
           "EnemyType": [

@@ -2242,8 +2242,8 @@
       "MaxSupplyPoints": 1,
       "MinConstructors": 1,
       "MaxConstructors": 1,
-      "MinPanels": 1,
-      "MaxPanels": 1,
+      "MinPanels": 2,
+      "MaxPanels": 3,
       "MinBoxesSpawned": 2,
       "MaxBoxesSpawned": 4,
       "MinTokensPerSupply": 1,
@@ -2321,8 +2321,8 @@
       "MaxSupplyPoints": 2,
       "MinConstructors": 1,
       "MaxConstructors": 1,
-      "MinPanels": 1,
-      "MaxPanels": 1,
+      "MinPanels": 2,
+      "MaxPanels": 3,
       "MinBoxesSpawned": 2,
       "MaxBoxesSpawned": 4,
       "MinTokensPerSupply": 1,
@@ -2332,7 +2332,8 @@
       "PossiblePanelTypes": [
         "AmmoReloader",
         "MagDuplicator",
-        "Recycler"
+        "Recycler",
+        "MagPurchase"
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
@@ -2441,8 +2442,8 @@
       "MaxSupplyPoints": 3,
       "MinConstructors": 1,
       "MaxConstructors": 1,
-      "MinPanels": 1,
-      "MaxPanels": 1,
+      "MinPanels": 2,
+      "MaxPanels": 3,
       "MinBoxesSpawned": 2,
       "MaxBoxesSpawned": 4,
       "MinTokensPerSupply": 1,
@@ -2452,7 +2453,9 @@
       "PossiblePanelTypes": [
         "AmmoReloader",
         "MagDuplicator",
-        "Recycler"
+        "Recycler",
+        "MagPurchase",
+        "AddFullAuto"
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
@@ -2602,8 +2605,8 @@
       "MaxSupplyPoints": 3,
       "MinConstructors": 1,
       "MaxConstructors": 1,
-      "MinPanels": 1,
-      "MaxPanels": 1,
+      "MinPanels": 2,
+      "MaxPanels": 3,
       "MinBoxesSpawned": 2,
       "MaxBoxesSpawned": 4,
       "MinTokensPerSupply": 1,
@@ -2613,7 +2616,9 @@
       "PossiblePanelTypes": [
         "AmmoReloader",
         "MagDuplicator",
-        "Recycler"
+        "Recycler",
+        "MagPurchase",
+        "MagUpgrader"
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
@@ -2780,8 +2785,8 @@
       "MaxSupplyPoints": 3,
       "MinConstructors": 1,
       "MaxConstructors": 1,
-      "MinPanels": 1,
-      "MaxPanels": 1,
+      "MinPanels": 2,
+      "MaxPanels": 3,
       "MinBoxesSpawned": 2,
       "MaxBoxesSpawned": 4,
       "MinTokensPerSupply": 1,
@@ -2791,7 +2796,9 @@
       "PossiblePanelTypes": [
         "AmmoReloader",
         "MagDuplicator",
-        "Recycler"
+        "Recycler",
+        "MagPurchase",
+        "MagUpgrader"
       ],
       "TakeChallenge": {
         "TurretType": "SMG",

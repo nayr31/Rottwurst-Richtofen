@@ -139,7 +139,7 @@
   "WeaponOptionsTertiary": [],
   "SecondaryChance": 0.0,
   "TertiaryChance": 0.0,
-  "DroppedLootChance": 1.0,
+  "DroppedLootChance": 0.5,
   "DroppedObjectPool": {
     "Category": "Firearm",
     "Rarity": 1.0,
@@ -153,10 +153,10 @@
     "SpawnMagAndClip": false,
     "BespokeAttachmentChance": -1.0,
     "IsCompatibleMagazine": false,
-    "AutoPopulateGroup": true,
+    "AutoPopulateGroup": false,
     "ForceSpawnAllSubPools": false,
     "IDOverride": [
-      "Improvised_FireAxe"
+      "TankGewehr"
     ],
     "Eras": [],
     "Sets": [],

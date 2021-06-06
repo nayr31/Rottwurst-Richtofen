@@ -238,7 +238,7 @@
   "WeaponOptionsTertiary": [],
   "SecondaryChance": 0.0,
   "TertiaryChance": 0.0,
-  "DroppedLootChance": 0.1,
+  "DroppedLootChance": 0.2,
   "DroppedObjectPool": {
     "Category": "Explosive",
     "Rarity": 1.0,
@@ -252,9 +252,11 @@
     "SpawnMagAndClip": false,
     "BespokeAttachmentChance": -1.0,
     "IsCompatibleMagazine": false,
-    "AutoPopulateGroup": true,
+    "AutoPopulateGroup": false,
     "ForceSpawnAllSubPools": false,
-    "IDOverride": [],
+    "IDOverride": [
+      "M1918BAR"
+    ],
     "Eras": [],
     "Sets": [],
     "Sizes": [],
@@ -270,11 +272,7 @@
     "MountTypes": [],
     "PowerupTypes": [],
     "ThrownTypes": [],
-    "ThrownDamageTypes": [
-      "Explosive",
-      "Utility",
-      "Fire"
-    ],
+    "ThrownDamageTypes": [],
     "SubGroups": []
   }
 }

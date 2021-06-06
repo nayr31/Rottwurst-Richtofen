@@ -163,7 +163,9 @@
     "IsCompatibleMagazine": false,
     "AutoPopulateGroup": false,
     "ForceSpawnAllSubPools": false,
-    "IDOverride": [],
+    "IDOverride": [
+      "MP40"
+    ],
     "Eras": [],
     "Sets": [],
     "Sizes": [],

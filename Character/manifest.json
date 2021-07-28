@@ -1,9 +1,9 @@
 {
     "guid": "h3vr.tnhtweaker.rottwurstrichtofen",
-    "version": "1.0.1",
-    "require": "0.3.0",
+    "version": "1.0.2",
+    "require": "0.4.1",
     "dependencies": {
-        "h3vr.tnhtweaker.deli": "1.6.0"
+        "h3vr.tnhtweaker.deli": "1.6.7"
       },
     "name": "Rottwurst Richtofen",
     "description": "A zosig only character, teeming with enemies.",
